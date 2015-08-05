@@ -1,0 +1,502 @@
+header, body, footer{
+  font-family: 'PT Sans','Arial', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+footer{
+  background: #373534;
+  border: 7px solid #cccccc;
+  font-weight: bold;
+  color: #fff;
+  line-height: 20px;
+}
+.main-header {
+  height:230px;
+}
+.address {
+  float:left;
+  width:33.3%;
+  font-size: 18px;
+  line-height: 20px;
+  color: #343434;
+}
+.address p {
+  display: block;
+  width: 313px;
+  height: 57px;
+  margin-top: -44px;
+  margin-left: 90px;
+}
+.address button {
+  display: block;
+  width:168px;
+  height:40px;
+  border:2px solid #c2c2c2;
+  color: #c2c2c2;
+  text-transform: uppercase;
+  background: #fefefe;
+  margin-left: 90px;
+}
+.address img {
+  margin-left: 36px;
+  margin-top: 37px;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -180px;
+  margin-top: 70px;
+}
+.telepnone-contacts {
+  float: right;
+  width: 33.3%;
+  margin-right: -80px;
+}
+.telepnone-contacts button {
+  display: block;
+  width:185px;
+  height:43px;
+  border-bottom: 2px solid #6b6a6f;
+  color: #fdfffe;
+  text-transform: uppercase;
+  background: #8c8d91;
+}
+.telepnone-contacts p:first-child {
+  font-size: 20px;
+  color:#8b8c90;
+}
+.telepnone-contacts p:nth-child(2) {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: ##343434;
+  padding-bottom: 28px;
+}
+.red {
+  color:#ff5f44;
+}
+.slogan {
+  color: #8b8c90;
+  font-size: 18px;
+  font-style: "PT Sans";
+  position: absolute;
+  left: 50%;
+  margin-left: -360px;
+  margin-top: 170px;
+}
+.action{
+  background: url("../image/bgr1.jpg") no-repeat;
+  background-size: 100%;
+  height:476px;
+}
+.action-text {
+  margin-left: 100px;
+  float: left;
+  width: 50%;
+}
+.action-text h1 {
+  color: #feffff;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.action-text h3 {
+  font-size: 29px;
+  font-weight: bold;
+  color: #343434;
+  line-height:30px;
+  padding-top: 20px;
+}
+.action-text p, span {
+  color: #fff;
+}
+.action-text span {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 26px;
+}
+.action-text p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+.action-text .small {
+  font-size: 16px;
+}
+form {
+  margin-left: 26px;
+}
+.action-form {
+  float: right;
+  width: 50%;
+  position: relative;
+  bottom: 55%;
+  left: 10%;
+  display: block;
+  width: 460px;
+  height: 356px;
+  border: 7px solid #d6d6d8;
+  border-color: transparent(0.5);
+  background-color: #fff;
+}
+.action-form h3 {
+  text-transform: uppercase;
+  color: #ff613a;
+  font-size: 18px;
+  margin-left: 90px;
+}
+.action-form label {
+  font-size: 18px;
+  color: #999ca1;
+  padding-right: 6px;
+}
+.action-form label:first-child {
+  padding-right: 47px;
+}
+.action-form label:last-child {
+  padding-right: 31px;
+}
+.action-form input[type="text"] {
+  height: 31px;
+  width: 269px;
+  margin-bottom: 11px;
+}
+.action-form button {
+  background:#ff613a;
+  font-size: 18px;
+  text-transform: uppercase;
+  color:#fcfffb;
+  width: 207px;
+  height:48px;
+  /*box-shadow: 2px 0 0 0 #d14e38;*/
+  margin-left: 120px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.action-form p {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 55px;
+  padding-top: 15px;
+  font-size: 18px;
+  color: #999ca1;
+}
+.time {
+  font-weight: bold;
+  font-size: 18px;
+  color:#343434;
+  margin-top: -39px;
+  margin-left: 345px;
+}
+.about-us {
+  height:420px;
+  clear: both;
+  padding-left: 136px;
+}
+.about-us h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #838383;
+  position: absolute;
+  left: 50%;
+  margin-left: -97px;
+}
+.about-us p {
+  color: #343434;
+  line-height: 20px;
+  text-align: center;
+}
+.numbers {
+  float: left;
+  width:33.3%;
+  height: 218px;
+  padding-top: 117px;
+}
+.numbers:last-child {
+  float: right;
+  width:33.3%;
+}
+.lined-text {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ff5b4f;
+}
+.certificate{
+  background: url("../image/bgr2.jpg") no-repeat;
+  background-size: 100%;
+}
+.about-certificate {
+  float: right;
+  width: 50%;
+  margin-right: 150px;
+  margin-top: -328px;
+  width: 400px;
+}
+.certificate-text p {
+  font-size: 29px;
+  font-weight: bold;
+  color: #343434;
+  line-height: 30px;
+  text-align: center;
+}
+.award {
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #343434;
+  line-height: 36px;
+}
+.certificate-image img{
+  border: 7px solid #fff;
+  /*opacity: 0.1;*/
+  box-shadow: 4px 4px 0 3px #fff;
+  padding-top: 28px;
+  padding-left: 26px;
+}
+.advantages-list {
+  height: 720px;
+  margin-left: 30px;
+}
+.advantages-list h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #838383;
+  position: absolute;
+  left: 50%;
+  margin-left: -293px;
+}
+.advantages-list h4 {
+  text-transform: uppercase;
+  color: #ff5a3c;
+  line-height: 20px;
+  text-align: center;
+}
+.advantages-list p {
+  color: #343434;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.line {
+  border:2px solid #b5b6b8;
+  width: 268px;
+}
+.advantage {
+  float:left;
+  width:25%;
+  height: 290px;
+  padding-top: 90px;
+}
+.advantage img, .advantages img{
+  margin: 0 auto;
+  display: block;
+}
+.advantages {
+  float:left;
+  width:25%;
+  height: 290px;
+}
+.action-2, .action-1{
+  background: url("../image/bgr3.jpg") no-repeat;
+  height: 480px;
+}
+.action-1, .action-2 {
+  padding-top: 58px;
+}
+.address1 {
+  width:376px;
+}
+.address1 p{
+  padding-left: 92px;
+  font-weight: bold;
+  color: #343434;
+  line-height: 20px;
+  margin-top: -53px;
+}
+.address1 img {
+  padding-left: 36px;
+}
+.address1  button {
+  display: block;
+  width: 168px;
+  height: 40px;
+  border: 2px solid #feffff;
+  color: #feffff;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin-left: 90px;
+}
+.telepnone-contacts1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343434;
+  line-height: 30px;
+  width: 213px;
+  margin-top: -136px;
+  margin-left: 435px;
+}
+.telepnone-contacts1 p:nth-child(2) {
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.dark-red {
+  color: #d93e2c;
+  font-size: 18px;
+}
+.reviews {
+  margin-top: -60px;
+}
+.reviews h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #838383;
+  position: absolute;
+  left: 50%;
+  margin-left: -57px;
+}
+.photo {
+  padding-left: 36px;
+  /*float: left;
+  width: 20%;*/
+}
+.person {
+  color: #ff5222;
+}
+.opinion {
+  font-size: 16px;
+  color: #858585;
+  line-height: 20px;
+}
+.opinion, .person {
+  background: #ececec;
+  /*float: right;
+  width:80%;*/
+}
+.reviews button {
+  height:40px;
+  width: 286px;
+  border:2px solid #cecece;
+  color:#8c8c8c;
+  text-transform: uppercase;
+  font-size: 16px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -143px;
+  margin-top: 16px;
+}
+.photo img {
+  border-radius: 100%;
+  width:138px;
+  height:138px;
+}
+.excursion {
+  background: url("../image/excursion-back.jpg")no-repeat;
+  height:153px;
+  margin-bottom: 62px;
+}
+.excursion h2 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 75px;
+}
+.excursion img {
+  position: absolute;
+  left: 50%;
+  margin-left: -45px;
+}
+.gallery {
+  margin-top: 82px;
+}
+.gallery h3 {
+  color: #737373;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.gallery-photo {
+ width: 203px;
+ height: 160px;
+ border:4px solid #e3e5e7;
+}
+.big-photo {
+width: 247px;
+height: 194px;
+border: 4px solid#ff5f44;
+}
+.pictures {
+  margin-left: 215px;
+}
+.map h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #838383;
+  text-align: center;
+}
+/*.ymaps-map{
+  border: 7px solid #c9c9c9;
+}*/
+.ways img {
+  width: 63px;
+  height: 64px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ways {
+  float: left;
+  width: 25%;
+  height: 490px;
+  padding-top: 33px;
+  padding-left: 20px;
+  width: 244px;
+}
+.ways h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #343434;
+  line-height: 20px;
+  text-align: center;
+}
+.how-to-get {
+  margin-left: 60px;
+  height: 543px;
+}
+.social-contacts {
+  margin-top: 400px;
+  margin-bottom: 73px;
+}
+.social-contacts h3 {
+  text-transform: uppercase;
+  color: #6f6f6f;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+.social-insta {
+  margin-left: 488px;
+}
+.social-fb, .social-vk {
+  margin-left: 52px;
+}
+footer .navigation {
+  height: 190px;
+}
+footer .address p{
+  color:#fff;
+  width:310px;
+}
+footer .telepnone-contacts {
+  font-size: 20px;
+  margin-top: 68px;
+  text-transform: uppercase;
+}
